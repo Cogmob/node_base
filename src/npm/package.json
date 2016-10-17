@@ -16,7 +16,9 @@
   "author": "cogmob",
   "license": "Apache-2.0",
   "devDependencies": {
+    "ava": "^0.16.0",
     "babel-cli": "^6.16.0",
-    "babel-repl": "0.0.6"
+    "babel-repl": "0.0.6",
+    "gulp": "^3.9.1"
   }
 }
