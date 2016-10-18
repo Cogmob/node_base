@@ -1,1 +1,2 @@
 nmap <leader>h :wall<CR> :call VimuxRunCommand('cd ' . expand('%:p:h') . '/src/tools ; clear ; ./set_up.sh')<CR>
+nmap <leader>j :wall<CR> :call VimuxRunCommand('cd ' . expand('%:p:h') . '/src/tools ; clear ; ./run_tests.sh')<CR>
