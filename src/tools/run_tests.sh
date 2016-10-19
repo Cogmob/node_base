@@ -2,4 +2,5 @@
 cp ../npm/gulpfile.js ../../gen
 cd ../../gen
 node_modules/.bin/gulp copy
-node_modules/.bin/gulp test
+clear
+sudo node_modules/.bin/ava

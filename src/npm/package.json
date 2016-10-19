@@ -4,7 +4,7 @@
   "description": "base repo for node projects",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -18,11 +18,17 @@
   "devDependencies": {
     "ava": "^0.16.0",
     "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
     "babel-repl": "0.0.6",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-ava": "^0.14.1",
     "gulp-babel": "^6.1.2",
     "run-sequence": "^1.2.2"
+  },
+  "ava": {
+    "files": [
+      "src/**/*test.js"
+    ]
   }
 }

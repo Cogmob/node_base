@@ -26,7 +26,7 @@ gulp.task('copy_gulpfile_2', function () {
     return gulp.src('src/npm/gulpfile.js').pipe(gulp.dest('.'));
 });
 
-gulp.task('copy', runSequence('delete_src', 'copy_src', 'es6', 'copy_gulpfile_1', 'copy_gulpfile_2'));
+gulp.task('copy', runSequence('copy_src', 'es6', 'copy_gulpfile_1', 'copy_gulpfile_2'));
 gulp.task('test', function () {
     return gulp.src('src/**/*test.js').pipe(ava({ verbose: true }));
 });
