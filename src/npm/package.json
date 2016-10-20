@@ -22,11 +22,19 @@
     "del": "^2.2.2",
     "gulp-babel": "^6.1.2",
     "gulp-debug": "^2.1.2",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "tap": "^7.1.2",
+    "tap-diff": "^0.1.1",
+    "tap-difflet": "^0.7.0",
+    "tap-prettify": "0.0.2",
+    "tape": "^4.6.2"
   },
   "ava": {
     "files": [
       "src/**/*test.js"
-    ]
+    ],
+    "tap": true,
+    "verbose": true,
+    "powerAssert": true
   }
 }

@@ -1,1 +1,1 @@
-module.exports = ()=> 'hello'
+module.exports = ()=> [1, 2]
