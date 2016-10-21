@@ -27,6 +27,7 @@
     "tap-diff": "^0.1.1",
     "tap-difflet": "^0.7.0",
     "tap-prettify": "0.0.2",
+    "tap-unfunk": "^0.1.0",
     "tape": "^4.6.2"
   },
   "ava": {
