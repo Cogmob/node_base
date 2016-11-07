@@ -2,7 +2,7 @@
   "name": "[[replace - name]]",
   "version": "0.0.0",
   "description": "[[replace - description]]",
-  "main": "index.js",
+  "main": "[[replace - src/name/name.js]]",
   "scripts": {
     "test": "ava"
   },
