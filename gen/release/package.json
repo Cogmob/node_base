@@ -1,7 +1,7 @@
 {
-  "name": "node_base",
+  "name": "[[replace - name]]",
   "version": "0.0.0",
-  "description": "base repo for node projects",
+  "description": "[[replace - description]]",
   "main": "index.js",
   "scripts": {
     "test": "ava"

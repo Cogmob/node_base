@@ -1,22 +1,13 @@
-# title
-
-short description
+[[replace - short description]]
 
 # usage
 
 ```shell
-npm install --save name
+npm install --save [[replace - name]]
 ```
 
 ```js
-const name = require('name');
+const name = require('[[replace - name]]');
 
-name.whatever 
+[[replace - name.whatever]]
 ```
-
-# dev usage
-cd ~/name/src/tools
-./set_up.sh
-./run_tests.sh
-./build_final.sh
-./publish.sh
