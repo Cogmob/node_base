@@ -7,7 +7,7 @@ npm install --save [[replace - name]]
 ```
 
 ```js
-const name = require('[[replace - name]]');
+const [[replace - name]] = require('[[replace - name]]');
 
 [[replace - name.whatever]]
 ```
